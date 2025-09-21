@@ -1,5 +1,6 @@
 #!/bin/bash
 
+kubectl create namespace todoapp
 
 kubectl apply -f .infrastructure/clusterIp.yml
 kubectl apply -f .infrastructure/secret.yml
